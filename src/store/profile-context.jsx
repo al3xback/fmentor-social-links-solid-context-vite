@@ -7,7 +7,7 @@ export const ProfileContext = createContext({
 	location: '',
 	job: '',
 	image: '',
-	socialLinks: []
+	socialLinks: [],
 });
 
 export default function ProfileContextProvider(props) {

@@ -7,8 +7,8 @@ function App() {
 	return (
 		<>
 			<Header />
-			<main class='main'>
-				<div class='container'>
+			<main class="main">
+				<div class="container">
 					<ProfileContextProvider>
 						<Profile />
 					</ProfileContextProvider>
